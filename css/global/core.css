@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+/******************************************************
+*
+*	1. property resset
+*	2. font property
+*	3. layout property
+*
+******************************************************/
+
+
+/*  1. property resset */
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+
+html {
+    margin: 0;
+    /* setting border: 0 hoses ie6 win window inner well border */
+    padding: 0;
+}
+body {
+    margin: 0;
+    /* setting border: 0 hoses ie5 win window inner well border */
+    padding: 0;
+}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0; padding:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+fieldset,img,object{border:0; vertical-align:bottom;}
+table{border-collapse:collapse;border-spacing:0;}
+caption,th {text-align:left;}
+ul {list-style-type:none;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym {border:0;}
+
+/* to preserve line-height and selector appearance */
+sup { vertical-align:text-top;}
+sub { vertical-align:text-bottom;}
+input,textarea,select { font-family:inherit; font-size:inherit; font-weight:inherit;}
+
+/*to enable resizing for IE*/
+input,textarea,select { *font-size:100%;}
+/*because legend doesn't inherit in IE */
+legend { color:#000;}
+
+hr { display: none;}
+strong { font-weight: bold;}
+
+/*\*/
+a {
+    outline: none;
+    overflow: hidden;
+}
+/**/

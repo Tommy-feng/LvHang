@@ -1,0 +1,370 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:700);
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+/******************************************************
+*
+*	1. font property
+*	2. link property
+*	3. layout Base
+*   4. header section
+*	5. global navigation section
+*	6. foot section
+*	7. main contents
+*   8. page top style
+*   9. borderWrap style
+*  10. bgOverlay style
+*  11. maximage style
+*  12. sp recruit style
+*  13. tablet / sp style
+*
+******************************************************/
+/*  1. font property */
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+body {
+    color: #333;
+}
+
+/*  2. link property */
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+a:link, a:visited, a:hover, a:active {
+    color: #00a0e9;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/*  3. layout Base */
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+body#index {
+    background: #233D2F;
+}
+body#index #whole {
+    z-index: 350;
+}
+body#index #whole {
+    position: absolute;
+    width: 100%;
+}
+
+/*  4. header section */
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+#headSec {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 200;
+}
+#headSec h1 {
+    position: absolute;
+}
+#headSec #scrollArrow {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    position: absolute;
+}
+#headSec #scrollArrow a {
+    display: block;
+    width: 50px;
+    text-align: center;
+    line-height: 1em;
+    font-size: 12px;
+    color: #fff;
+}
+#headSec #scrollArrow a:hover {
+    text-decoration: none;
+}
+#headSec #scrollArrow img {
+    line-height: 1em;
+}
+
+/*  5. global navigation section */
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+#gNavSec {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid #eee;
+    background: #fff;
+    z-index: 300;
+}
+#gNavSec #gNavSec_inner {
+    width: 860px;
+    margin: 0 auto;
+    padding: 0 60px;
+}
+#gNavSec #gNavSec_inner:before, #gNavSec #gNavSec_inner:after {
+    content: "";
+    display: table;
+}
+#gNavSec #gNavSec_inner:after {
+    clear: both;
+}
+#gNavSec #gNavSec_inner {
+    zoom: 1;
+}
+#gNavSec #gNavSec_inner ul {
+    display: inline;
+    float: left;
+    padding-top: 35px;
+}
+#gNavSec #gNavSec_inner ul:before, #gNavSec #gNavSec_inner ul:after {
+    content: "";
+    display: table;
+}
+#gNavSec #gNavSec_inner ul:after {
+    clear: both;
+}
+#gNavSec #gNavSec_inner ul {
+    zoom: 1;
+}
+#gNavSec #gNavSec_inner ul li {
+    display: inline;
+    float: left;
+    padding: 0 30px;
+    border-right: 1px solid #eee;
+    line-height: 1.2;
+}
+#gNavSec #gNavSec_inner ul li:first-child {
+    padding-left: 0;
+}
+#gNavSec #gNavSec_inner ul li.lastChild {
+    padding-right: 0;
+    border: 0;
+}
+#gNavSec #gNavSec_inner ul li a {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    line-height: 1em;
+    *line-height: 1.4;
+    font-size: 14px;
+    color: #223D2E;
+}
+#gNavSec #gNavSec_inner ul li a:hover, #gNavSec #gNavSec_inner ul li a.selected {
+    border-bottom: 2px solid #223D2E;
+    text-decoration: none;
+}
+#gNavSec #gNavSec_inner #tel {
+    display: inline;
+    float: right;
+    height: 55px;
+    padding: 25px 0 0 40px;
+    border-left: 1px solid #eee;
+}
+#gNavSec #gNavSec_inner #tel:before, #gNavSec #gNavSec_inner #tel:after {
+    content: "";
+    display: table;
+}
+#gNavSec #gNavSec_inner #tel:after {
+    clear: both;
+}
+#gNavSec #gNavSec_inner #tel {
+    zoom: 1;
+}
+#gNavSec #gNavSec_inner #tel .txt {
+    font-size: 12px;
+    line-height: 1em;
+    color: #223D2E;
+    font-weight: bold;
+}
+#gNavSec #gNavSec_inner #tel .num {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    margin-top: 4px;
+    font-size: 20px;
+    line-height: 1em;
+    color: #223D2E;
+}
+
+/*  6. foot section */
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+#footSec {
+    height: 200px;
+    padding: 0 10px 10px;
+    background: #E3E3E3;
+    text-align: center;
+}
+#footSec #copyright {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    padding-top: 100px;
+    line-height: 1em;
+    font-size: 77%;
+    color: #999;
+}
+#footSec #footerlink {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    line-height: 1em;
+    color: #ccc;
+}
+#footSec #footerlink:hover {
+    text-decoration: none;
+    color: #999;
+}
+
+/*  7. main contents */
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+#container {
+    background: #f2f2f2;
+}
+
+/*  8. page top style */
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+#pageTop {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 400;
+}
+
+/*  9. borderWrap style */
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+#borderTop {
+    top: 0;
+    width: 100%;
+    height: 10px;
+}
+
+#borderRight {
+    right: 0;
+    width: 10px;
+    height: 150%;
+}
+
+#borderLeft {
+    left: 0;
+    width: 10px;
+    height: 150%;
+}
+
+#borderBottom {
+    bottom: 0;
+    width: 100%;
+    height: 10px;
+}
+
+#borderTop,
+#borderLeft,
+#borderRight,
+#borderBottom {
+    position: fixed;
+    background: #233D2F;
+    z-index: 1000;
+}
+
+/*  10. bgOverlay style */
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+#imgOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: url(../img/imgOverlay.png) repeat;
+    width: 100%;
+    z-index: 100;
+}
+
+/*  11. maximage style */
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+#maximage .bx-viewport {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+}
+
+#bxNav {
+    position: fixed;
+    bottom: 100px;
+    left: 50%;
+    margin-left: -150px;
+    z-index: 180;
+    width: 300px;
+    text-align: center;
+}
+#bxNav a {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 18px;
+}
+#bxNav a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+#bxNav a.active {
+    color: #B5A869;
+    cursor: auto;
+}
+
+/*  12. sp recruit style */
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+#recruitSp {
+    display: none;
+}
+#recruitSp a {
+    position: fixed;
+    bottom: 5px;
+    padding: 10px 0;
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+    z-index: 800;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    color: #233D2F;
+    font-size: 93%;
+}
+#recruitSp a:hover {
+    text-decoration: none;
+}
+
+/*  13. tablet / sp style */
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 1000px) {
+    #gNavSec #gNavSec_inner {
+        width: auto;
+        padding: 0 50px;
+    }
+    #gNavSec #gNavSec_inner #tel {
+        padding: 25px 0 0 25px;
+    }
+    #gNavSec #gNavSec_inner ul li {
+        padding: 0 20px;
+    }
+}
+@media screen and (max-width: 760px) {
+    #gNavSec #gNavSec_inner {
+        width: auto;
+        padding: 0 0;
+    }
+    #gNavSec #gNavSec_inner #nav {
+        display: block;
+        float: none;
+        width: 480px;
+        margin: 0 auto;
+    }
+    #gNavSec #gNavSec_inner #nav li {
+        padding: 0 15px;
+    }
+    #gNavSec #gNavSec_inner #tel {
+        display: none;
+    }
+}
+@media screen and (max-width: 480px) {
+    #gNavSec #gNavSec_inner {
+        width: auto;
+        padding: 0 0;
+    }
+    #gNavSec #gNavSec_inner #nav {
+        width: 345px;
+    }
+    #gNavSec #gNavSec_inner #nav li {
+        padding: 0 5px;
+    }
+}

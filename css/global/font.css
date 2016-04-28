@@ -1,0 +1,214 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Lato:700);
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+/******************************************************
+*
+*	font property
+*
+******************************************************/
+/**
+ * Percents could work for IE, but for backCompat purposes, we are using keywords.
+ * x-small is for IE6/7 quirks mode.
+ *
+ */
+body {
+    font: 13px/1.231 "游ゴシック体","Yu Gothic",YuGothic,'メイリオ',Meiryo, 'ＭＳ Ｐゴシック', Arial, verdana, sans-serif;
+    *font-size: small;
+    /* for IE */
+    *font: x-small;
+    /* for IE in quirks mode */
+}
+
+html > body {
+    font-size/*\**/: small\9;
+}
+
+/**
+ * 99% for safari; 100% is too large
+ */
+select, input, button, textarea {
+    font: 99% arial,helvetica,clean,sans-serif;
+    /* for macIE5 \*/
+    font-family: "游ゴシック体","Yu Gothic",YuGothic,'メイリオ',Meiryo, 'ＭＳ Ｐゴシック', Arial, verdana, sans-serif;
+    font-weight: bold;
+}
+
+/**
+ * To help tables remember to inherit
+ */
+table {
+    font-size: inherit;
+    font: 100%;
+}
+
+/**
+ * Bump up IE to get to 13px equivalent for these fixed-width elements
+ */
+pre, code, kbd, samp, tt {
+    font-family: monospace;
+    *font-size: 108%;
+    line-height: 100%;
+}
+
+/**
+ * Default line-height based on font-size rather than "computed-value"
+ * see: http://www.w3.org/TR/CSS21/visudet.html#line-height
+ */
+body * {
+    line-height: 2;
+    letter-spacing: 1px;
+    -webkit-font-smoothing: antialiased;
+}
+
+/**
+ * Individual font module
+ */
+/*----------------------------------------
+    font-size
+------------------------------------------
+Font-size list (base: 13px)
+ 62% =  8px
+ 70% =  9px
+ 77% = 10px
+ 85% = 11px        162% = 21px        239% = 31px
+ 93% = 12px        170% = 22px        247% = 32px
+100% = 13px        177% = 23px        254% = 33px
+108% = 14px        185% = 24px        262% = 34px
+116% = 15px        193% = 25px        270% = 35px
+124% = 16px        200% = 26px        277% = 36px
+131% = 17px        208% = 27px        285% = 37px
+139% = 18px        216% = 28px        293% = 38px
+147% = 19px        224% = 29px        300% = 39px
+154% = 20px        231% = 30px        308% = 40px
+*/
+.f08 {
+    font-size: 62% !important;
+}
+
+.f09 {
+    font-size: 70% !important;
+}
+
+.f10 {
+    font-size: 77% !important;
+}
+
+.f11 {
+    font-size: 85% !important;
+}
+
+.f12 {
+    font-size: 93% !important;
+}
+
+.f13 {
+    font-size: 100% !important;
+}
+
+.f14 {
+    font-size: 108% !important;
+}
+
+.f15 {
+    font-size: 116% !important;
+}
+
+.f16 {
+    font-size: 124% !important;
+}
+
+.f17 {
+    font-size: 131% !important;
+}
+
+.f18 {
+    font-size: 139% !important;
+}
+
+.f19 {
+    font-size: 147% !important;
+}
+
+.f20 {
+    font-size: 154% !important;
+}
+
+.f21 {
+    font-size: 162% !important;
+}
+
+.f22 {
+    font-size: 170% !important;
+}
+
+.f23 {
+    font-size: 177% !important;
+}
+
+.f24 {
+    font-size: 185% !important;
+}
+
+.f25 {
+    font-size: 193% !important;
+}
+
+.f26 {
+    font-size: 200% !important;
+}
+
+.f27 {
+    font-size: 208% !important;
+}
+
+.f28 {
+    font-size: 216% !important;
+}
+
+.f29 {
+    font-size: 224% !important;
+}
+
+.f30 {
+    font-size: 321% !important;
+}
+
+.f31 {
+    font-size: 239% !important;
+}
+
+.f32 {
+    font-size: 247% !important;
+}
+
+.f33 {
+    font-size: 254% !important;
+}
+
+.f34 {
+    font-size: 262% !important;
+}
+
+.f35 {
+    font-size: 270% !important;
+}
+
+.f36 {
+    font-size: 277% !important;
+}
+
+.f37 {
+    font-size: 285% !important;
+}
+
+.f38 {
+    font-size: 293% !important;
+}
+
+.f39 {
+    font-size: 300% !important;
+}
+
+.f40 {
+    font-size: 308% !important;
+}

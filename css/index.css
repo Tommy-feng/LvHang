@@ -1,0 +1,812 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:700);
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+/*
+*   /index.html pc style
+*
+*   0. common style
+*   1. sec1 style
+*   2. sec2 style
+*   3. sec3 style
+*   4. sec4 style
+*   5. sec5 style
+*   6. recruit style
+*   7. tablet / sp style
+*
+******************************************************/
+/*  0. common style */
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+.sec {
+    padding: 190px 0 40px;
+}
+.sec .inner {
+    width: 860px;
+    margin: 0 auto;
+    padding: 0 60px;
+}
+.sec .item:before, .sec .item:after {
+    content: "";
+    display: table;
+}
+.sec .item:after {
+    clear: both;
+}
+.sec .item {
+    zoom: 1;
+}
+
+.gold {
+    color: #fff;
+}
+.gold .h1sec h1 {
+    border-color: #fff;
+    color: #fff;
+}
+
+.h1sec {
+    text-align: center;
+}
+.h1sec .ttlIcon {
+    height: 43px;
+    margin-bottom: 50px;
+}
+.h1sec .ttlIcon img {
+    display: none;
+    display/*\**/: inline\9;
+}
+.h1sec h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    display: inline;
+    font-size: 30px;
+    border-top: 3px solid #233D2F;
+    border-bottom: 3px solid #233D2F;
+    line-height: 1;
+    color: #233D2F;
+}
+.h1sec h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    font-size: 28px;
+    line-height: 2;
+    color: #233D2F;
+
+}
+.h1sec h1 span {
+    letter-spacing: -0.05em;
+}
+
+/*  1. sec1 style */
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+#sec1 .item {
+    margin: 100px 0;
+}
+#sec1 .item #salon h2,
+#sec1 .item #esthe h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    text-align: center;
+    font-size: 108%;
+    color: #233D2F;
+}
+#sec1 .item #salon p,
+#sec1 .item #esthe p {
+    width: 400px;
+    padding: 20px 0;
+    font-size: 93%;
+    text-align:justify;
+    text-justify:inter-ideograph;
+}
+#sec1 .item #salon {
+    display: inline;
+    float: left;
+}
+#sec1 .item #salon p {
+    padding: 20px 30px 20px 0;
+    border-right: 1px solid #ccc;
+}
+#sec1 .item #esthe {
+    display: inline;
+    float: right;
+}
+#sec1 #gallery {
+    overflow: hidden;
+    z-index: 0 !important;
+}
+#sec1 #gallery:before, #sec1 #gallery:after {
+    content: "";
+    display: table;
+}
+#sec1 #gallery:after {
+    clear: both;
+}
+#sec1 #gallery {
+    zoom: 1;
+}
+#sec1 #gallery div {
+    display: inline;
+    float: left;
+    width: 280px !important;
+}
+
+/*  2. sec2 style */
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+#sec2 p.catch {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 100%;
+}
+#sec2 .item {
+    margin-top: 100px;
+}
+#sec2 .item #priority h2,
+#sec2 .item #assurance h2 {
+    text-align: center;
+    font-size: 108%;
+    width: 400px;
+}
+#sec2 .item #priority p,
+#sec2 .item #assurance p {
+    width: 400px;
+    padding: 20px 0;
+    font-size: 93%;
+}
+#sec2 .item #priority {
+    display: inline;
+    float: left;
+}
+#sec2 .item #priority p {
+    padding: 20px 30px 20px 0;
+    border-right: 1px solid #CAC299;
+}
+#sec2 .item #assurance {
+    display: inline;
+    float: right;
+}
+
+/*  3. sec3 style */
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+#sec3 .item {
+    width: 460px;
+    margin: 100px auto 0;
+}
+#sec3 .item #name1,
+#sec3 .item #name2 {
+    width: 150px;
+    text-align: center;
+}
+#sec3 .item #name1 dt,
+#sec3 .item #name2 dt {
+    font-size: 108%;
+    color: #233D2F;
+}
+#sec3 .item #name1 dd,
+#sec3 .item #name2 dd {
+    font-size: 77%;
+}
+#sec3 .item #name1 {
+    display: inline;
+    float: left;
+}
+#sec3 .item #name2 {
+    display: inline;
+    float: right;
+}
+
+/*  4. sec4 style */
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+#sec4 .h2Block {
+    margin-top: 100px;
+    text-align: center;
+}
+#sec4 .h2Block h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    display: inline;
+    font-size: 124%;
+}
+#sec4 #reserv {
+    margin-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+#sec4 #reserv dt {
+    display: inline;
+    padding: 6px 10px;
+    border: 3px solid #fff;
+    font-size: 108%;
+    font-weight: bold;
+}
+#sec4 #reserv dd {
+    margin-top: 20px;
+}
+#sec4 .item {
+    margin-top: 50px;
+}
+#sec4 .item .table1 h3,
+#sec4 .item .table2 h3,
+#sec4 .item .table3 h3,
+#sec4 .item .table4 h3 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    font-size: 108%;
+    text-align: center;
+}
+#sec4 .item .table1 .tableBox,
+#sec4 .item .table2 .tableBox,
+#sec4 .item .table3 .tableBox,
+#sec4 .item .table4 .tableBox {
+    width: 360px;
+    padding: 20px 0;
+    font-size: 93%;
+}
+#sec4 .item .table1 .tableBox table,
+#sec4 .item .table2 .tableBox table,
+#sec4 .item .table3 .tableBox table,
+#sec4 .item .table4 .tableBox table {
+    width: 100%;
+}
+#sec4 .item .table1 .tableBox table tr.head th,
+#sec4 .item .table1 .tableBox table tr.head td,
+#sec4 .item .table2 .tableBox table tr.head th,
+#sec4 .item .table2 .tableBox table tr.head td,
+#sec4 .item .table3 .tableBox table tr.head th,
+#sec4 .item .table3 .tableBox table tr.head td,
+#sec4 .item .table4 .tableBox table tr.head th,
+#sec4 .item .table4 .tableBox table tr.head td {
+    padding-top: 40px;
+}
+#sec4 .item .table1 .tableBox table th,
+#sec4 .item .table2 .tableBox table th,
+#sec4 .item .table3 .tableBox table th,
+#sec4 .item .table4 .tableBox table th {
+    vertical-align: top;
+    padding-top: 15px;
+    line-height: 1.2em;
+    font-weight: bold;
+}
+#sec4 .item .table1 .tableBox table th span,
+#sec4 .item .table2 .tableBox table th span,
+#sec4 .item .table3 .tableBox table th span,
+#sec4 .item .table4 .tableBox table th span {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    font-size: 93%;
+    line-height: 1.2em;
+}
+#sec4 .item .table1 .tableBox table th span.notes,
+#sec4 .item .table2 .tableBox table th span.notes,
+#sec4 .item .table3 .tableBox table th span.notes,
+#sec4 .item .table4 .tableBox table th span.notes {
+    font-size: 0.83333em;
+    line-height: 1.2em;
+}
+#sec4 .item .table1 .tableBox table th.lead,
+#sec4 .item .table2 .tableBox table th.lead,
+#sec4 .item .table3 .tableBox table th.lead,
+#sec4 .item .table4 .tableBox table th.lead {
+    line-height: 2;
+    font-weight: normal;
+}
+#sec4 .item .table1 .tableBox table th.lead span,
+#sec4 .item .table2 .tableBox table th.lead span,
+#sec4 .item .table3 .tableBox table th.lead span,
+#sec4 .item .table4 .tableBox table th.lead span {
+    font-weight: bold;
+}
+#sec4 .item .table1 .tableBox table td,
+#sec4 .item .table2 .tableBox table td,
+#sec4 .item .table3 .tableBox table td,
+#sec4 .item .table4 .tableBox table td {
+    padding-top: 15px;
+    text-align: right;
+    vertical-align: top;
+    line-height: 1.2em;
+}
+#sec4 .item .table1 td.notes,
+#sec4 .item .table2 td.notes,
+#sec4 .item .table3 td.notes,
+#sec4 .item .table4 td.notes {
+    padding: 20px 0 10px 0 !important;
+    font-size: 0.83333em;
+    text-align: left !important;
+}
+#sec4 .item .table1 {
+    display: inline;
+    float: left;
+}
+#sec4 .item .table2 {
+    display: inline;
+    float: right;
+}
+#sec4 .item .table2 .tableBox {
+    padding: 20px 0 20px 70px;
+    border-left: 1px solid #CAC299;
+}
+#sec4 .item .table3 {
+    display: inline;
+    float: left;
+}
+#sec4 .item .table3 .tableBox {
+    padding: 20px 70px 20px 0;
+    border-right: 1px solid #CAC299;
+}
+#sec4 .item .table4 {
+    display: inline;
+    float: right;
+}
+#sec4 .item1 .table2 h3.other {
+    margin-top: 30px;
+    padding: 0;
+}
+#sec4 .item1 .table2 h3 {
+    padding-left: 70px;
+}
+
+/*  5. sec5 style */
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+#sec5 {
+    padding-bottom: 0;
+}
+#sec5 #mapWrap {
+    position: relative;
+    margin-top: 100px;
+    padding: 0 10px;
+}
+#sec5 #mapWrap #googleMaps {
+    width: 100%;
+    height: 500px;
+    border-top: 1px solid #e9e9e9;
+    border-bottom: 1px solid #e9e9e9;
+}
+#sec5 #mapWrap #routeBtn {
+    position: absolute;
+    top: 430px;
+    left: 50%;
+    margin-left: -120px;
+    width: 240px;
+    padding: 5px;
+    border: 3px solid #fff;
+    background: #FF7E73;
+    font-size: 93%;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    z-index: 10;
+}
+#sec5 #mapWrap #routeBtn:hover {
+    background: #ff8e84;
+}
+#sec5 .item {
+    margin-top: 30px;
+}
+#sec5 .item #shopPht {
+    display: inline;
+    float: left;
+    width: 266px;
+}
+#sec5 .item #shopPht img {
+    border: 3px solid #ccc;
+}
+#sec5 .item #shopDetail {
+    display: inline;
+    float: right;
+    width: 560px;
+}
+#sec5 .item #shopDetail .box {
+    padding-top: 15px;
+}
+#sec5 .item #shopDetail .box:before, #sec5 .item #shopDetail .box:after {
+    content: "";
+    display: table;
+}
+#sec5 .item #shopDetail .box:after {
+    clear: both;
+}
+#sec5 .item #shopDetail .box {
+    zoom: 1;
+}
+#sec5 .item #shopDetail .box .icon {
+    width: 20px;
+    padding-left: 30px;
+    float: left;
+    text-align: center;
+}
+#sec5 .item #shopDetail .box #mIcon1 {
+    padding-top: 22px;
+}
+#sec5 .item #shopDetail .box #mIcon2 {
+    padding-top: 10px;
+}
+#sec5 .item #shopDetail .box dl {
+    width: 480px;
+    padding-left: 20px;
+    float: right;
+}
+#sec5 .item #shopDetail .box dl:before, #sec5 .item #shopDetail .box dl:after {
+    content: "";
+    display: table;
+}
+#sec5 .item #shopDetail .box dl:after {
+    clear: both;
+}
+#sec5 .item #shopDetail .box dl {
+    zoom: 1;
+}
+#sec5 .item #shopDetail .box dl dt {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    font-size: 108%;
+    color: #223D2E;
+}
+#sec5 .item #shopDetail .box dl dd.txt {
+    width: 350px;
+    float: left;
+    font-size: 93%;
+}
+#sec5 .item #shopDetail .box dl dd.btn {
+    float: right;
+}
+#sec5 .item #shopDetail .box dl dd.btn a {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    display: block;
+    margin-top: 10px;
+    padding-bottom: 2px;
+    border-bottom: 2px solid #233D2F;
+    line-height: 1em;
+    font-size: 77%;
+    color: #233D2F;
+}
+#sec5 .item #shopDetail .box dl dd.btn a:hover {
+    text-decoration: none;
+}
+#sec5 .item #shopDetail .box dl dd.btn a span {
+    font-size: 0.8em;
+}
+#sec5 .item #shopDetail .box dl dd.telLink a {
+    color: #333 !important;
+}
+#sec5 .item #shopDetail .box dl dd.telLink a:hover {
+    text-decoration: none;
+    cursor: default;
+}
+#sec5 .item #shopDetail .box:first-child {
+    padding: 5px 0 15px;
+    border-bottom: 1px solid #ccc;
+}
+#sec5 #business {
+    margin-top: 50px;
+    padding: 40px 0;
+    border-top: 1px solid #d6d6d6;
+    border-bottom: 1px solid #d6d6d6;
+    font-size: 93%;
+    background: #E3E3E3;
+}
+#sec5 #business:before, #sec5 #business:after {
+    content: "";
+    display: table;
+}
+#sec5 #business:after {
+    clear: both;
+}
+#sec5 #business {
+    zoom: 1;
+}
+#sec5 #business p {
+    float: left;
+    width: 423px;
+    padding: 5px 0;
+    text-align: center;
+    color: #666;
+}
+#sec5 #business p:before, #sec5 #business p:after {
+    content: "";
+    display: table;
+}
+#sec5 #business p:after {
+    clear: both;
+}
+#sec5 #business p {
+    zoom: 1;
+}
+#sec5 #business p:last-child {
+    border-left: 1px solid #d6d6d6;
+}
+#sec5 #business p span {
+    font-weight: bold;
+}
+
+/*  6. recruit style */
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+#recruit {
+    padding: 150px 0;
+    width: 100%;
+    height: auto;
+    z-index: 1200;
+    background-color: #233D2F;
+    position: relative;
+    color: #fff;
+}
+#recruit #recruitInner h1 {
+    color: #fff;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+}
+#recruit #recruitInner .lead {
+    width: 700px;
+    margin: 100px auto;
+    text-align: center;
+}
+#recruit #recruitInner .lead span {
+    font-weight: 400;
+    font-size: 28px;
+}
+#recruit #recruitInner #recruitApplication h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 124%;
+}
+#recruit #recruitInner #recruitApplication table {
+    width: 600px;
+    margin: 15px auto 30px;
+}
+#recruit #recruitInner #recruitApplication table tr {
+    vertical-align: top;
+}
+#recruit #recruitInner #recruitApplication table tr th {
+    padding: 10px 0;
+    width: 100px;
+    font-weight: bold;
+}
+#recruit #recruitInner #recruitApplication table tr td {
+    padding: 10px 0;
+}
+#recruit #recruitInner #recruitContact {
+    margin-top: 100px;
+}
+#recruit #recruitInner #recruitContact h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 124%;
+}
+#recruit #recruitInner #recruitContact p {
+    width: 700px;
+    margin: 30px auto 0;
+    text-align: center;
+}
+#recruit #recruitInner #recruitContact p span {
+    font-weight: bold;
+}
+#recruit #recruitClose {
+    position: fixed;
+    top: 60px;
+    right: 60px;
+}
+
+/*  7. tablet / sp style */
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 1000px) {
+    .sec .inner {
+        width: 560px !important;
+    }
+    .sec#sec1 {
+        padding-top: 190px;
+    }
+    .sec#sec1 .item #salon p,
+    .sec#sec1 .item #esthe p {
+        width: 245px !important;
+    }
+    .sec#sec2 .item #priority h2,
+    .sec#sec2 .item #priority p,
+    .sec#sec2 .item #assurance h2,
+    .sec#sec2 .item #assurance p {
+        width: 245px !important;
+    }
+    .sec#sec4 .item {
+        margin-top: 20px;
+    }
+    .sec#sec4 .table1,
+    .sec#sec4 .table2,
+    .sec#sec4 .table3,
+    .sec#sec4 .table4 {
+        display: block !important;
+        float: none !important;
+    }
+    .sec#sec4 .table1 .tableBox,
+    .sec#sec4 .table2 .tableBox,
+    .sec#sec4 .table3 .tableBox,
+    .sec#sec4 .table4 .tableBox {
+        width: 500px !important;
+        margin: 0 auto;
+        padding: 0;
+        border: none;
+    }
+    .sec#sec4 .item1 .table2 {
+        margin-top: 40px;
+    }
+    .sec#sec4 .item1 h3 {
+        padding-left: 0;
+    }
+    .sec#sec5 #shopPht {
+        display: none;
+    }
+    .sec#sec5 #shopDetail {
+        display: block;
+        float: none;
+    }
+    .sec#sec5 #business p {
+        float: none;
+        width: auto !important;
+    }
+    .sec#sec5 #business p:last-child {
+        border: none;
+    }
+}
+@media screen and (max-width: 760px) {
+    .sec .inner {
+        width: 70% !important;
+        padding: 0 15%;
+    }
+    .sec .item {
+        margin: 40px 0 0 !important;
+    }
+    .sec#sec1 .item {
+        padding-bottom: 50px;
+    }
+    .sec#sec1 .item #salon,
+    .sec#sec1 .item #esthe {
+        display: block;
+        float: none;
+    }
+    .sec#sec1 .item #salon h2,
+    .sec#sec1 .item #salon p,
+    .sec#sec1 .item #esthe h2,
+    .sec#sec1 .item #esthe p {
+        width: 100% !important;
+        padding: 0;
+        border: 0;
+    }
+    .sec#sec2 .catch {
+        margin-top: 40px;
+    }
+    .sec#sec2 .item #priority,
+    .sec#sec2 .item #assurance {
+        display: block;
+        float: none;
+    }
+    .sec#sec2 .item #priority h2,
+    .sec#sec2 .item #priority p,
+    .sec#sec2 .item #assurance h2,
+    .sec#sec2 .item #assurance p {
+        width: 100% !important;
+        padding: 0;
+        border: 0;
+    }
+    .sec#sec3 .item {
+        width: 100%;
+        margin: 100px auto 0;
+    }
+    .sec#sec3 .item #name1,
+    .sec#sec3 .item #name2 {
+        width: auto !important;
+        text-align: center;
+    }
+    .sec#sec3 .item #name1,
+    .sec#sec3 .item #name2 {
+        display: block;
+        float: none;
+    }
+    .sec#sec3 .item #name2 {
+        margin-top: 30px;
+    }
+    .sec#sec4 .h2Block {
+        margin-top: 40px;
+    }
+    .sec#sec4 .table1 .tableBox,
+    .sec#sec4 .table2 .tableBox,
+    .sec#sec4 .table3 .tableBox,
+    .sec#sec4 .table4 .tableBox {
+        width: 100% !important;
+    }
+    .sec#sec4 .table1 td,
+    .sec#sec4 .table2 td,
+    .sec#sec4 .table3 td,
+    .sec#sec4 .table4 td {
+        min-width: 10em;
+    }
+    .sec#sec4 #reserv {
+        margin-top: 32px;
+    }
+    .sec#sec4 #reserv dt {
+        display: block !important;
+        width: 200px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .sec#sec5 #mapWrap {
+        margin-top: 40px;
+    }
+    .sec#sec5 #shopDetail {
+        width: 100% !important;
+    }
+    .sec#sec5 #shopDetail .icon {
+        display: none;
+    }
+    .sec#sec5 #shopDetail dl {
+        width: 100% !important;
+        padding-left: 0;
+        float: right;
+    }
+    .sec#sec5 #shopDetail dl dd.txt {
+        width: 100% !important;
+        float: none;
+        font-size: 93%;
+    }
+
+    #recruit {
+        padding: 100px 0;
+    }
+    #recruit #recruitInner .lead {
+        width: auto;
+        margin: 50px auto;
+        padding: 0 30px;
+        text-align: left;
+    }
+    #recruit #recruitInner #recruitApplication {
+        padding: 0 30px;
+    }
+    #recruit #recruitInner #recruitApplication table {
+        margin: 10px auto 0;
+        width: auto;
+    }
+    #recruit #recruitInner #recruitApplication table th {
+        width: 30%;
+    }
+    #recruit #recruitInner #recruitContact {
+        margin-top: 50px;
+    }
+    #recruit #recruitInner #recruitContact h2 {
+        text-align: center;
+        font-weight: bold;
+        font-size: 124%;
+    }
+    #recruit #recruitInner #recruitContact p {
+        width: auto;
+        margin: 10px auto 0;
+        padding: 0 30px;
+        text-align: left;
+    }
+    #recruit #recruitInner #recruitContact p#recruitTel {
+        margin-top: 30px;
+        text-align: center;
+    }
+    #recruit #recruitClose {
+        position: fixed;
+        top: 30px;
+        right: 30px;
+    }
+    #recruit #recruitClose img {
+        width: 40px;
+        height: 40px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .sec {
+        padding: 50px 0;
+    }
+    .sec#sec5 #mapWrap #googleMaps {
+        height: 250px !important;
+    }
+    .sec#sec5 #mapWrap #routeBtn {
+        position: absolute;
+        top: 190px;
+    }
+}
