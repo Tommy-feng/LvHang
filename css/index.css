@@ -111,21 +111,26 @@
     display: inline;
     float: right;
 }
-#sec1 #gallery {
+#sec1 #gallery, #sec5 #gallery{
     overflow: hidden;
     z-index: 0 !important;
 }
-#sec1 #gallery:before, #sec1 #gallery:after {
+#sec1 #gallery:before, #sec1 #gallery:after,
+#sec5 #gallery:before, #sec5 #gallery:after {
     content: "";
     display: table;
 }
-#sec1 #gallery:after {
+
+#sec1 #gallery:after,
+#sec5 #gallery:after {
     clear: both;
 }
-#sec1 #gallery {
+#sec1 #gallery,
+#sec5 #gallery {
     zoom: 1;
 }
-#sec1 #gallery div {
+#sec1 #gallery div,
+#sec5 #gallery div {
     display: inline;
     float: left;
     width: 280px !important;
