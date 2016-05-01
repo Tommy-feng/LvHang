@@ -142,10 +142,19 @@ body#index #whole {
     font-size: 14px;
     color: #223D2E;
 }
+#gNavSec #gNavSec_inner ul li a.recruitOpenBtn {
+    color: #FF7E73;
+    font-weight: 600;
+}
 #gNavSec #gNavSec_inner ul li a:hover, #gNavSec #gNavSec_inner ul li a.selected {
     border-bottom: 2px solid #223D2E;
     text-decoration: none;
 }
+#gNavSec #gNavSec_inner ul li a.recruitOpenBtn:hover, #gNavSec #gNavSec_inner ul li a.recruitOpenBtn.selected {
+    border-bottom: 2px solid #FF7E73;
+    text-decoration: none;
+}
+
 #gNavSec #gNavSec_inner #tel {
     display: inline;
     float: right;
