@@ -16,7 +16,7 @@
 /*  0. common style */
 /*----------------------------------------------------------------------------------------------------------------------------------------*/
 .sec {
-    padding: 190px 0 40px;
+    padding: 120px 0 40px;
 }
 .sec .inner {
     width: 860px;
@@ -79,11 +79,11 @@
 
 /*  1. sec1 style */
 /*----------------------------------------------------------------------------------------------------------------------------------------*/
-#sec1 .item {
-    margin: 100px 0;
+.item {
+    margin: 100px 0 50px;
 }
-#sec1 .item #salon h2,
-#sec1 .item #esthe h2 {
+.item #salon h2,
+.item #esthe h2 {
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
     letter-spacing: 0.1em;
@@ -91,23 +91,23 @@
     font-size: 108%;
     color: #233D2F;
 }
-#sec1 .item #salon p,
-#sec1 .item #esthe p {
+.item #salon p,
+.item #esthe p {
     width: 400px;
     padding: 20px 0;
     font-size: 93%;
     text-align:justify;
     text-justify:inter-ideograph;
 }
-#sec1 .item #salon {
+.item #salon {
     display: inline;
     float: left;
 }
-#sec1 .item #salon p {
+.item #salon p {
     padding: 20px 30px 20px 0;
     border-right: 1px solid #ccc;
 }
-#sec1 .item #esthe {
+.item #esthe {
     display: inline;
     float: right;
 }
@@ -133,7 +133,7 @@
 #sec5 #gallery div {
     display: inline;
     float: left;
-    width: 280px !important;
+    width: auto !important;
 }
 
 /*  2. sec2 style */
@@ -143,62 +143,10 @@
     text-align: center;
     font-size: 100%;
 }
-#sec2 .item {
-    margin-top: 100px;
-}
-#sec2 .item #priority h2,
-#sec2 .item #assurance h2 {
-    text-align: center;
-    font-size: 108%;
-    width: 400px;
-}
-#sec2 .item #priority p,
-#sec2 .item #assurance p {
-    width: 400px;
-    padding: 20px 0;
-    font-size: 93%;
-}
-#sec2 .item #priority {
-    display: inline;
-    float: left;
-}
-#sec2 .item #priority p {
-    padding: 20px 30px 20px 0;
-    border-right: 1px solid #CAC299;
-}
-#sec2 .item #assurance {
-    display: inline;
-    float: right;
-}
 
 /*  3. sec3 style */
 /*----------------------------------------------------------------------------------------------------------------------------------------*/
-#sec3 .item {
-    width: 460px;
-    margin: 100px auto 0;
-}
-#sec3 .item #name1,
-#sec3 .item #name2 {
-    width: 150px;
-    text-align: center;
-}
-#sec3 .item #name1 dt,
-#sec3 .item #name2 dt {
-    font-size: 108%;
-    color: #233D2F;
-}
-#sec3 .item #name1 dd,
-#sec3 .item #name2 dd {
-    font-size: 77%;
-}
-#sec3 .item #name1 {
-    display: inline;
-    float: left;
-}
-#sec3 .item #name2 {
-    display: inline;
-    float: right;
-}
+
 
 /*  4. sec4 style */
 /*----------------------------------------------------------------------------------------------------------------------------------------*/
@@ -227,130 +175,6 @@
 }
 #sec4 #reserv dd {
     margin-top: 20px;
-}
-#sec4 .item {
-    margin-top: 50px;
-}
-#sec4 .item .table1 h3,
-#sec4 .item .table2 h3,
-#sec4 .item .table3 h3,
-#sec4 .item .table4 h3 {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 400;
-    letter-spacing: 0.1em;
-    font-size: 108%;
-    text-align: center;
-}
-#sec4 .item .table1 .tableBox,
-#sec4 .item .table2 .tableBox,
-#sec4 .item .table3 .tableBox,
-#sec4 .item .table4 .tableBox {
-    width: 360px;
-    padding: 20px 0;
-    font-size: 93%;
-}
-#sec4 .item .table1 .tableBox table,
-#sec4 .item .table2 .tableBox table,
-#sec4 .item .table3 .tableBox table,
-#sec4 .item .table4 .tableBox table {
-    width: 100%;
-}
-#sec4 .item .table1 .tableBox table tr.head th,
-#sec4 .item .table1 .tableBox table tr.head td,
-#sec4 .item .table2 .tableBox table tr.head th,
-#sec4 .item .table2 .tableBox table tr.head td,
-#sec4 .item .table3 .tableBox table tr.head th,
-#sec4 .item .table3 .tableBox table tr.head td,
-#sec4 .item .table4 .tableBox table tr.head th,
-#sec4 .item .table4 .tableBox table tr.head td {
-    padding-top: 40px;
-}
-#sec4 .item .table1 .tableBox table th,
-#sec4 .item .table2 .tableBox table th,
-#sec4 .item .table3 .tableBox table th,
-#sec4 .item .table4 .tableBox table th {
-    vertical-align: top;
-    padding-top: 15px;
-    line-height: 1.2em;
-    font-weight: bold;
-}
-#sec4 .item .table1 .tableBox table th span,
-#sec4 .item .table2 .tableBox table th span,
-#sec4 .item .table3 .tableBox table th span,
-#sec4 .item .table4 .tableBox table th span {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 400;
-    letter-spacing: 0.1em;
-    font-size: 93%;
-    line-height: 1.2em;
-}
-#sec4 .item .table1 .tableBox table th span.notes,
-#sec4 .item .table2 .tableBox table th span.notes,
-#sec4 .item .table3 .tableBox table th span.notes,
-#sec4 .item .table4 .tableBox table th span.notes {
-    font-size: 0.83333em;
-    line-height: 1.2em;
-}
-#sec4 .item .table1 .tableBox table th.lead,
-#sec4 .item .table2 .tableBox table th.lead,
-#sec4 .item .table3 .tableBox table th.lead,
-#sec4 .item .table4 .tableBox table th.lead {
-    line-height: 2;
-    font-weight: normal;
-}
-#sec4 .item .table1 .tableBox table th.lead span,
-#sec4 .item .table2 .tableBox table th.lead span,
-#sec4 .item .table3 .tableBox table th.lead span,
-#sec4 .item .table4 .tableBox table th.lead span {
-    font-weight: bold;
-}
-#sec4 .item .table1 .tableBox table td,
-#sec4 .item .table2 .tableBox table td,
-#sec4 .item .table3 .tableBox table td,
-#sec4 .item .table4 .tableBox table td {
-    padding-top: 15px;
-    text-align: right;
-    vertical-align: top;
-    line-height: 1.2em;
-}
-#sec4 .item .table1 td.notes,
-#sec4 .item .table2 td.notes,
-#sec4 .item .table3 td.notes,
-#sec4 .item .table4 td.notes {
-    padding: 20px 0 10px 0 !important;
-    font-size: 0.83333em;
-    text-align: left !important;
-}
-#sec4 .item .table1 {
-    display: inline;
-    float: left;
-}
-#sec4 .item .table2 {
-    display: inline;
-    float: right;
-}
-#sec4 .item .table2 .tableBox {
-    padding: 20px 0 20px 70px;
-    border-left: 1px solid #CAC299;
-}
-#sec4 .item .table3 {
-    display: inline;
-    float: left;
-}
-#sec4 .item .table3 .tableBox {
-    padding: 20px 70px 20px 0;
-    border-right: 1px solid #CAC299;
-}
-#sec4 .item .table4 {
-    display: inline;
-    float: right;
-}
-#sec4 .item1 .table2 h3.other {
-    margin-top: 30px;
-    padding: 0;
-}
-#sec4 .item1 .table2 h3 {
-    padding-left: 70px;
 }
 
 /*  5. sec5 style */
@@ -489,7 +313,6 @@
 }
 #sec5 #business {
     margin-top: 50px;
-    padding: 40px 0;
     border-top: 1px solid #d6d6d6;
     border-bottom: 1px solid #d6d6d6;
     font-size: 93%;
