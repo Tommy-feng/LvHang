@@ -50,18 +50,32 @@ body#index #whole {
 /*----------------------------------------------------------------------------------------------------------------------------------------*/
 #headSec {
     position: fixed;
-    top: 0;
+    top: -50px;
     left: 0;
     z-index: 200;
 }
 #headSec h1 {
     position: absolute;
+    font-size: 36px;
+    border: solid 2px #fff;
+    width: 80px;
+    color: #fff;
+    margin: 0 auto;
+    padding: 40px 30px 40px 35px;
+}
+#headSec h1 span {
+    font-size: 20px;
+    display: inline-block;
+    margin: -55px 0 0 15px;
+    width: 20px;
+    line-height: 24px;
 }
 #headSec #scrollArrow {
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
     letter-spacing: 0.1em;
     position: absolute;
+    margin-top: 50px;
 }
 #headSec #scrollArrow a {
     display: block;
@@ -73,6 +87,7 @@ body#index #whole {
 }
 #headSec #scrollArrow a:hover {
     text-decoration: none;
+    color: #ff7e73;
 }
 #headSec #scrollArrow img {
     line-height: 1em;
